@@ -20,7 +20,7 @@ jobs:
       - name: Simple Echo Test
         uses: ashwin-ant/action-test-publish@beta
         with:
-          message: $GITHUB_WORKSPACE
+          message: ./
           
 
       - name: 'Deploy Logic App Standard'
