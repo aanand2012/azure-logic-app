@@ -26,7 +26,7 @@ jobs:
       - name: 'Deploy Logic App Standard'
         uses: azure/functions-action@v1
         with:
-          app-name: 'FileMover2'
+          app-name: 'FileMover'
           package: './FileMover.zip' # Relative path to zip in your repo
           # If using Publish Profile instead of Azure Login:
           # publish-profile: ${{ secrets.AZURE_LOGICAPP_PUBLISH_PROFILE }}
